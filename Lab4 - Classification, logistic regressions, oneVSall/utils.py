@@ -32,7 +32,7 @@ def mapFeature(X1, X2, degree=6):
     if X1.ndim > 0:
         out = [np.ones(X1.shape[0])]
     else:
-        out = [np.ones(1)]
+        out = [1]
 
     for i in range(1, degree + 1):
         for j in range(i + 1):
